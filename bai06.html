@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai06</title>
+    <style>
+        .contentA table,.contentA th,.contentA td{
+            border: 3px solid rgb(227, 227, 188);
+            border-collapse: collapse;
+            text-align: center;
+        }
+        .contentA th,.contentA td{
+            padding: 30px;
+        }
+
+        .contentB table,.contentB th,.contentB td{
+            border: 1px solid rgb(190, 190, 18);
+            text-align: left;
+        }
+        .contentB th,.contentB td{
+            padding: 6px;
+        }
+        a{
+            color: rgb(207, 34, 34);
+        }
+        .bg-con{
+            background-color: orange;
+        }
+        .bg-gold{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="contentA">
+        <table>
+            <tr>
+                <td>1</td>
+                <td colspan="4">2</td>
+            </tr>
+            <tr>
+                <td rowspan="3">3</td>
+                <td class="bg-con">4</td>
+                <td class="bg-con">5</td>
+                <td colspan="2" rowspan="2" class="bg-gold">6</td>
+            </tr>
+            <tr>
+                <td class="bg-con">7</td>
+                <td class="bg-con">8</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="bg-gold">9</td>
+                <td colspan="2" class="bg-gold">10</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="contentB">
+        <table>
+            <tr>
+                <td>(1)</td>
+                <td>(2)</td>
+                <td>(3)</td>
+                <td colspan="3">(4)</td>
+                <td>(5)</td>
+            </tr>
+            <!-- Part I -->
+            <tr>
+                <td></td>
+                <td colspan="5"><a href="">Part I</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="4"><a href="">Chapter 1</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="3"><a href="">Section A</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="3"><a href="">Section B</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="4"><a href="">Chapter 2</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="3"><a href="">Section A</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="3"><a href="">Section B</a></td>
+                <td></td>
+            </tr>
+            <!-- Part II -->
+            <tr>
+                <td></td>
+                <td colspan="5"><a href="">Part II</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="4"><a href="">Chapter 3</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="3"><a href="">Section A</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="3"><a href="">Section B</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="4"><a href="">Chapter 4</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="3"><a href="">Section A</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="3"><a href="">Section B</a></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
