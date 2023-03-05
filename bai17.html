@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .title {
+            text-align: center;
+        }
+        
+        .content1 {
+            width: 600px;
+            background-color: rgb(239, 180, 90);
+        }
+        
+        #send {
+            padding-left: 150px;
+        }
+        
+        #clear {
+            padding-left: 50px;
+        }
+
+        .div2 {
+            padding-bottom: 15px;
+        }
+        
+        #select_bro {
+            width: 200px;
+        }
+        
+        #input_username {
+            width: 190px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="content1">
+      <h1 class="title" style="text-align: center">Survey Form</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+        ullam impedit deleniti quisquam eveniet praesentium delectus dolorem.
+        Voluptatum tempore assumenda inventore maxime, reprehenderit, aspernatur
+        eum exercitationem esse delectus modi incidunt quo? Ab iste eius ratione
+        quod asperiores debitis nisi quidem exercitationem eum nobis cupiditate
+        quis optio, dicta provident error facere?
+      </p>
+      <ol>
+        <li type="1">
+          <b>What is your name?</b> <br />
+          <input type="text" size="50" />
+        </li>
+        <br />
+        <li>
+          <b>What is your date of birth?</b>
+          <label>
+            <br />
+            <!-- <input type="month"> -->
+            Month:
+            <select name="thang">
+              <option value="“thg1”">January</option>
+              <option value="“thg2”">February</option>
+              <option value="“thg3”">March</option>
+              <option value="“thg4”">April</option>
+              <option value="“thg5”">May</option>
+              <option value="“thg6”">June</option>
+              <option value="“thg7”">July</option>
+              <option value="“thg8”">August</option>
+              <option value="“thg9”">September</option>
+              <option value="“thg10”">October</option>
+              <option value="“thg11”">November</option>
+              <option value="“thg12”">December</option>
+            </select>
+            Date:
+            <select name="thang">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+            Year:
+            <input type="text" size="3" />
+          </label>
+        </li>
+        <li>
+          <p>
+            <b
+              >What is your mailing address (if you would like to have a hard
+              copy of our catalog sent to you)?</b
+            >
+          </p>
+          <textarea
+            placeholder="Number/P.O. Box/Route:
+                Street/Avenue/Road:
+                City:
+                State/Zip:"
+            cols="40"
+            rows="5"
+          ></textarea>
+        </li>
+
+        <li>
+          <p>
+            <b>What is your email address?</b><br />
+            <input type="email" size="30" />
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Have you viewed our online?</b>
+            <br />
+            <input type="radio" name="Radio" />
+            <label for="radio"> Yes</label>
+            <input type="radio" name="Radio" />
+            <label for="radio"> No</label>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b
+              >If so what products, besides the one you aare ordeing might you
+              be ?</b
+            >
+            <br />
+            <input type="checkbox" /> <label for="checkbok">VCK</label> <br />
+            <input type="checkbox" /> <label for="checkbok">Big Screen TV</label
+            ><br />
+            <input type="checkbox" /><label for="checkbok"
+              >Audio Equipment</label
+            ><br />
+            <input type="checkbox" />
+            <label for="checkbok">Video Equipment </label><br />
+            <input type="checkbox" /><label for="checkbok"
+              >Camera Equipment</label
+            ><br />
+            <input type="checkbox" /><label for="checkbok">Other</label>
+            <input type="text" placeholder="Please List" />
+          </p>
+        </li>
+        <li>
+          <p>
+            <b
+              >Do you have any questionm comments or suggestions before
+              proceeding to the Order Form?</b
+            >
+            <br />
+            <textarea
+              name="textarea"
+              cols="40"
+              rows="7"
+              placeholder="Your Input:"
+            ></textarea>
+          </p>
+          <br />
+        </li>
+      </ol>
+      <div >
+        <label id="send">
+            <input type="submit" value="Send Form" />
+          </label>
+    
+          <label id="clear" >
+            <input type="submit" value="Clear Form" />
+          </label>
+      </div>
+    </div>
+    <hr>
+    <div class="div2">
+        <Label>Browser: </Label>
+        <select name="bro" id="select_bro">
+            <option value="o1"></option>
+            <option value="o2">https://sv.iuh.edu.vn/sinh-vien-dang-nhap.html</option>
+            <option value="o3">https://stackoverflow.com/</option>
+            <option value="o4">https://webcoban.vn/</option>
+        </select>
+    </div>
+    <div class="div2">
+        <Label>Username: </Label>
+        <input type="text" id="input_username">
+    </div>
+
+    <div class="div2">
+        <Label>Encryption: </Label>
+        <select name="Encryption" id="select_encryption">
+            <option value="o1">2048 (High Grade)</option>
+            <option value="o2">2045 (High Grade)</option>
+            <option value="o3">2046 (High Grade)</option>
+            <option value="o4">2065 (High Grade)</option>
+        </select>
+    </div>
+    <div class="div2">
+        <span>0</span>
+        <input type="range" min="0" max="100" id="input_thanhtruot">
+        <span>100</span>
+        <br>
+        <input type="text" id="input_thanhtruot">
+
+    </div>
+    <div class="div2">
+        <Label>Birthday: </Label>
+        <input type="date" name="input_name_date" id="input_id_date">
+
+    </div>
+    <div class="div2">
+        <Label>Select your favorite color: </Label>
+        <input type="color" name="input_name_color" id="input_id_color" value="#ff0000">
+    </div>
+    <div class="div2">
+        <Label>(Birthday month and year): </Label>
+
+        <input type="month" name="thang-nam" id="thang-nam">
+    </div>
+    <div class="div2">
+        <Label>Select a week: </Label>
+        <input type="week" name="week_name">
+    </div>
+    <div class="div2">
+        <Label>Select a time: </Label>
+        <input type="time" name="time_name">
+    </div>
+    <div class="div2">
+        <Label>Birthday (date and time)  </Label>
+        <input type="text" name="date-time_name">
+    </div>
+    <div class="div2">
+        <Label>E-mail: </Label>
+        <input type="email" name="mail_name">
+    </div>
+    <div class="div2">
+        <Label>Search google: </Label>
+        <input type="text" name="search-gg_name">
+    </div>
+    <div class="div2">
+        <Label>Telephone: </Label>
+        <input type="text" name="Telephone_name">
+    </div>
+    <div class="div2">
+        <Label>Add your homepage: </Label>
+        <input type="text" name="addyourhome_name">
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    <div class="div2">
+        <p><b>Note: </b> The datalist tag is not supported in Safari or IE9 (and earlier)
+        </p>
+    </div>
+  </body>
+</html>
