@@ -1,0 +1,98 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #e34d73;
+    --border-color: #f3f4f6;
+    --background-btn-color: #9095a0;
+    --end-meet-color: #f22128;
+    --green-color: #1dd75b;
+    --background-pink-color: #fdf2f4;
+    --pink-color: #df7590;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    /* font-size:100% = 16px*/
+    font-size: 62.5%; /* 10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* Grid */
+.grid{
+    width: 1440px;
+    height: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__col{
+    
+}
+
+.grid__col-2{
+    width: 16.667%;
+}
+
+.grid__col-2-4{
+    width: 20%;
+}
+
+.grid__col-10{
+    width: 76%;
+}
+
+.grid__col-1{
+    width: 5.55%;
+}
+
+.grid__col-4{
+    width: 31.25%;
+}
+
+.grid__col-7{
+    width: 63.20%;
+}
+
+/* Css */
+.bd_left{
+    border-left: 1px solid var(--border-color);
+}
+
+.bd_top{
+    border-top: 2px solid var(--border-color);
+}
+
+.height-max{
+    height: 100%;
+}
+
+.cross-spacebetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}

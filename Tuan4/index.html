@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Call</title>
+    <!-- Reset css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/font/icon-fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <div class="app__container">
+        <div class="grid">
+          <div class="grid__row height-max">
+            <div class="grid__col grid__col-1 text-center cross-spacebetween">
+              <div class="logo-and-nav">
+                <div class="logo">
+                  <img src="./assets/img/logo.png" class="logo-img" alt="" />
+                </div>
+                <nav class="nav">
+                  <ul class="nav-list">
+                    <li class="nav-item">
+                      <img src="./assets/img/home.png" alt="" />
+                    </li>
+                    <li class="nav-item nav-item--new">
+                      <img src="./assets/img/chatting.png" alt="" />
+                    </li>
+                    <li class="nav-item">
+                      <img src="./assets/img/calender.png" alt="" />
+                    </li>
+                    <li class="nav-item nav-item--active">
+                      <img src="./assets/img/cam.png" alt="" />
+                    </li>
+                    <li class="nav-item">
+                      <img src="./assets/img/user.png" alt="" />
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="account-and-setting">
+                <div class="account">
+                  <img
+                    src="./assets/img/avatar 1328.png"
+                    alt=""
+                    class="account-img"
+                  />
+                </div>
+                <div class="setting mt-10">
+                  <img
+                    src="./assets/img/setting.png"
+                    alt=""
+                    class="setting-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="grid__col grid__col-7 bd_left">
+              <div class="center__container">
+                <div class="heading">
+                  <h2 class="header">Meeting title</h2>
+                  <span class="center__duration">
+                    <div class="center__duration-icon">
+                      <i class="fas fa-circle"></i>
+                    </div>
+                    12:00
+                  </span>
+                </div>
+                <div class="center__about">
+                  <div class="center__type">
+                    <img
+                      src="./assets/img/user.png"
+                      alt=""
+                      class="center__type-icon"
+                    />
+                    Internal
+                  </div>
+                  <div class="center__calender center__about-item">
+                    <img
+                      src="./assets/img/calender_small.png"
+                      alt=""
+                      class="center__calender-icon"
+                    />
+                    Sep 02, 2022
+                  </div>
+                  <div
+                    class="center__time center__about-item center__about-item--separate"
+                  >
+                    08:00 - 09:00 AM
+                  </div>
+                </div>
+                <div class="center__video">
+                  <div
+                    style="
+                      background: url(./assets/img/img_big.png) bottom center/
+                        contain no-repeat;
+                    "
+                    class="center__video-item center__video-item--pin"
+                  >
+                    <div class="center__video-name">
+                      <div class="center__video-name-icon">
+                        <i class="fas fa-circle"></i>
+                      </div>
+                      Benjamin Crawford
+                    </div>
+                    <div class="center__video-micstatus">
+                        <i class="fas fa-microphone"></i>
+                      </div>
+                  </div>
+                  <div class="center__video-list">
+                    <div
+                      style="
+                        background: url(./assets/img/img2.png) top center/
+                          contain no-repeat;
+                      "
+                      class="center__video-item"
+                    >
+                      <div class="center__video-name">
+                        <div class="center__video-name-icon">
+                          <i class="fas fa-circle"></i>
+                        </div>
+                        Christian 5cott
+                      </div>
+                      <div class="center__video-micstatus">
+                        <i class="fas fa-microphone"></i>
+                      </div>
+                    </div>
+                    <div
+                      style="
+                        background: url(./assets/img/img1.png) top center/
+                          contain no-repeat;
+                      "
+                      class="center__video-item"
+                    >
+                      <div class="center__video-name">
+                        <div class="center__video-name-icon">
+                          <i class="fas fa-circle"></i>
+                        </div>
+                        Deborah Chu
+                      </div>
+                      <div class="center__video-micstatus">
+                        <i class="fas fa-microphone-slash"></i>
+                      </div>
+                    </div>
+                    <div
+                      style="
+                        background: url(./assets/img/img.png) top center/
+                          contain no-repeat;
+                      "
+                      class="center__video-item"
+                    >
+                      <div class="center__video-name">
+                        <div class="center__video-name-icon">
+                          <i class="fas fa-circle"></i>
+                        </div>
+                        Jordan Nieves
+                      </div>
+                      <div class="center__video-micstatus">
+                        <i class="fas fa-microphone"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="center__nav">
+                    <button class="center__nav-btn" style="background: url(./assets/img/mic_grey_color.png) top center/ contain no-repeat;"></button>
+                    <button class="center__nav-btn" style="background: url(./assets/img/cam_color.png) top center/ contain no-repeat;"></button>
+                    <button class="center__nav-btn" style="background: url(./assets/img/speaker_grey_color.png) top center/ contain no-repeat;"></button>
+                    <button class="center__nav-btn center__nav-btn--danger">End meeting</button>
+                    <button class="center__nav-btn" style="background: url(./assets/img/Button\ 2179.png) top center/ contain no-repeat;"></button>
+                    <button class="center__nav-btn" style="background: url(./assets/img/share.png) top center/ contain no-repeat;"></button>
+                    <button class="center__nav-btn" style="background: url(./assets/img/bacham.png) top center/ contain no-repeat;"></button>
+                </div>
+              </div>
+            </div>
+            <div class="grid__col grid__col-4 bd_left">
+                <div class="right__container">
+                    <div class="participants">
+                        <div class="heading">
+                            <h2 class="header">Participants</h2>
+                            <span class="quantity">4</span>
+                            <button class="addusers">
+                                <div class="addusers-icon">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                Add
+                            </button>
+                        </div>
+                        <ul class="user-list">
+                            <li class="user-item">
+                                <div class="user__info">
+                                    <div class="user__avt">
+                                        <img src="./assets/img/avatar 1322.png" alt="" class="user__avt-img">
+                                    </div>
+                                    <h3 class="user__name">Benjamin Crawford</h3>
+                                </div>
+                                <div class="user__status">
+                                    <button class="user__status-item">
+                                        <i class="fas fa-microphone"></i>
+                                    </button>
+                                    <button class="user__status-item">
+                                        <i class="fas fa-video"></i>
+                                    </button>
+                                    <button class="user__status-item">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="user-item">
+                                <div class="user__info">
+                                    <div class="user__avt">
+                                        <img src="./assets/img/avatar 1323.png" alt="" class="user__avt-img">
+                                    </div>
+                                    <h3 class="user__name">Christian Scott</h3>
+                                </div>
+                                <div class="user__status">
+                                    <button class="user__status-item">
+                                        <i class="fas fa-microphone"></i>
+                                    </button>
+                                    <button class="user__status-item">
+                                        <i class="fas fa-video"></i>
+                                    </button>
+                                    <button class="user__status-item">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="user-item">
+                                <div class="user__info">
+                                    <div class="user__avt">
+                                        <img src="./assets/img/avatar 1324.png" alt="" class="user__avt-img">
+                                    </div>
+                                    <h3 class="user__name">Deborah Chu</h3>
+                                </div>
+                                <div class="user__status">
+                                    <button class="user__status-item">
+                                        <i class="fas fa-microphone"></i>
+                                    </button>
+                                    <button class="user__status-item">
+                                        <i class="fas fa-video"></i>
+                                    </button>
+                                    <button class="user__status-item">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="user-item">
+                                <div class="user__info">
+                                    <div class="user__avt">
+                                        <img src="./assets/img/avatar 1325.png" alt="" class="user__avt-img">
+                                    </div>
+                                    <h3 class="user__name">Jordan Nieves</h3>
+                                </div>
+                                <div class="user__status">
+                                    <button class="user__status-item">
+                                        <i class="fas fa-microphone"></i>
+                                    </button>
+                                    <button class="user__status-item">
+                                        <i class="fas fa-video"></i>
+                                    </button>
+                                    <button class="user__status-item">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chat bd_top">
+                        <div class="heading mt-40">
+                            <h2 class="header">Chat</h2>
+                        </div>
+                        <ul class="chat-list">
+                            <li class="chat-item">
+                                <div class="wrap-avt">
+                                    <div class="user__avt user__avt--active">
+                                        <img src="./assets/img/avatar 1324.png" alt="" class="user__avt-img">
+                                    </div>
+                                </div>
+                                <div class="wrap-comment">
+                                    <h3 class="user__name">Deborah Chu</h3>
+                                    <span class="time-comment">1:12 PM</span>
+                                    <p class="user__comment">Lorem excepteur magna volupate exercitation dolore execitation amet</p>
+                                </div>
+                            </li>
+                            <li class="chat-item">
+                                <div class="wrap-avt">
+                                    <div class="user__avt user__avt--active">
+                                        <img src="./assets/img/avatar 1325.png" alt="" class="user__avt-img">
+                                    </div>
+                                </div>
+                                <div class="wrap-comment">
+                                    <h3 class="user__name">Jordan Nievies</h3>
+                                    <span class="time-comment">1:12 PM</span>
+                                    <p class="user__comment">Lorem excepteur magna volupate exercitation dolore execitation amet</p>
+                                </div>
+                            </li>
+                            <li class="chat-item">
+                                <div class="wrap-avt">
+                                    <div class="user__avt user__avt--active">
+                                        <img src="./assets/img/avatar 1322.png" alt="" class="user__avt-img">
+                                    </div>
+                                </div>
+                                <div class="wrap-comment">
+                                    <h3 class="user__name">Benjamin Crawford</h3>
+                                    <span class="time-comment">1:12 PM</span>
+                                    <p class="user__comment " style="background-color: var(--background-pink-color);">🥰🥰🥰</p>
+                                </div>
+                            </li>
+                            <li class="chat-item">
+                                <div class="wrap-avt">
+                                    <div class="user__avt user__avt--active">
+                                        <img src="./assets/img/avatar 1323.png" alt="" class="user__avt-img">
+                                    </div>
+                                </div>
+                                <div class="wrap-comment">
+                                    <h3 class="user__name">Christian Scott</h3>
+                                    <p class="user__comment typing">Typing...</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="send-comment">
+                            <div class="edit-area">
+                                <input type="text" class="send-comment__input" placeholder="Add comment">
+                                <button class="icon-list"><i class="fas fa-smile"></i></button>
+                            </div>
+                            <button class="send"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
