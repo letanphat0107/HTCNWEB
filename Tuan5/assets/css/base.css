@@ -1,5 +1,6 @@
 :root{
-
+    --primary-color: #00bdd6;
+    --backgroundprimary-color: #00bdd6;
 }
 
 html{
@@ -16,4 +17,8 @@ html{
 
 .pd-0{
     padding: 0px;
+}
+
+.mt-10{
+    margin-top: 10px;
 }
