@@ -1,0 +1,122 @@
+:root{
+    --backgroundview-darkthemes-color: #22252d;
+    --backgroundmenu-darkthemes-color: #2a2d35;
+    --backgroundview-lightthemes-color: #ffffff;
+    --backgroundmenu-lightthemes-color: #f9f9f9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app{
+    width: 400px;
+    border-radius: 30px;
+}
+
+.dark-theme{
+    background-color: var(--backgroundview-darkthemes-color);
+    color: white;
+}
+
+.light-theme{
+    background-color: var(--backgroundview-lightthemes-color);
+}
+
+#view{
+    padding: 0 30px;
+    padding-top: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.view_menudisplay{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #292d36;
+    padding: 0 10px;
+    line-height: 40px;
+    border-radius: 14px;
+}
+
+.view-btn{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    color: #65676e;
+    border: none;
+}
+
+.theme-active{
+    color: white;
+}
+
+.view-btn{
+    margin-left: 6px;
+}
+
+.line{
+    width: 100%;
+    text-align: right;
+}
+
+.line-old{
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.line-new{
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+#menu{
+    margin-top: 20px;
+    padding: 34px 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 16px;
+    row-gap: 20px;
+    background-color: var(--backgroundmenu-darkthemes-color);
+    border-radius: 30px;
+}
+
+.btn{
+    margin-left: 7px;
+    background-color: #65676e1b;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-color--blue{
+    color: #26debe;
+}
+
+.btn-num{
+    
+}
+
+.btn-operator{
+    color: #ee7777;
+}
